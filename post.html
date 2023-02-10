@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f3f022ab3a.js" crossorigin="anonymous"></script>
+    <title>Blog-Post</title>
+</head>
+
+<body>
+    <nav>
+        <img src="images/logoLMS.png" alt="">
+        <div class="navigation">
+            <ul class="active">
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="about-home">
+        <h2>BLOG-POST</h2>
+    </section>
+
+    <section id="blog-container">
+        <div class="blogs blog-post">
+            <div class="posts">
+                <img src="images/b1.jpg" alt="">
+                <h3>6 BEST BUILD TOOLS FOR FRONTEND DEVELOPMENT</h3>
+                <p>Code used in production is different from development code.
+                    In production, you need to build packages that run fast, manage dependencies, automate tasks, load
+                    external modules, and more.
+                    Tools that make it possible to turn development code into production code are called build tools.
+                    Frontend developers mostly work with the following types of build tools:
+                    <br><br>
+                    Package Managers,<br>
+                    Task Runners,<br>
+                    Module Loaders,<br>
+                    Module Bundlers,<br>
+                    etc.
+                    <br><br>
+                    The acronym npm stands for Node Package Maid that is the default package manager of Node.js. When you install Node.js on your system, npm is also automatically installed and you can access it from your command line interface. With npm, you can install any Node.js package with a single command.
+
+You can find all existing Node.js packages in the npm registry that you can access via the search bar on top of npm’s homepage. You only need to type the name of the package you are looking for (e.g. ‘postcss’) into the search bar, and you are directed to the package page that includes everything you need to know about the package, its installation process, and all of its dependencies.
+                </p>
+                <a href="#">Read Next</a>
+            </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Repotation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Manage Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Featuers</h3>
+            <li>Manage Repotation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Manage Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletters</h3>
+            <p>You Can Trust Us, We Only Send Promos!</p>
+            <div class="sub">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>CopyRight @ 2022, All Rights Reserved _ This Website Is Made By M.Haris</p>
+            <div class="pro-links">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f3f022ab3a.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <nav>
+        <img src="images/logoLMS.png" alt="">
+        <div class="navigation">
+            <ul class="active">
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="about-home">
+        <h2>Contact Us</h2>
+    </section>
+
+    <section id="contact">
+        <div class="getin">
+            <h2>GET IN TOUCH</h2>
+            <p>Looking For Help ? Fill The Form & Start A New Adventure</p>
+
+            <div class="getin-det">
+                <h3>Address</h3>
+                <div>
+                    <i class="fa-solid fa-house-laptop  get"></i><p>Steel Town, Bin Qasim, Karachi.</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <i class="fa-solid fa-phone  get"></i><p>03363589691, 03145405496</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="fa-solid fa-envelope  get"></i><p>mharisawan125@gmail.com</p>
+                </div>
+                <h3>Follow Us</h3>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <p>Fill The Form To Register Your-Self</p>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="E-Mail">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="10" placeholder="How Can We Help ?"></textarea>
+            </div>
+            <div class="form-col">
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Repotation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Manage Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Featuers</h3>
+            <li>Manage Repotation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Manage Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletters</h3>
+            <p>You Can Trust Us, We Only Send Promos!</p>
+            <div class="sub">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>CopyRight @ 2022, All Rights Reserved _ This Website Is Made By M.Haris</p>
+            <div class="pro-links">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+
+</html>
